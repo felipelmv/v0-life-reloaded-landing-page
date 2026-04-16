@@ -19,8 +19,9 @@ import {
   Plus,
   X,
 } from "lucide-react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useGameStore } from "@/lib/store";
 
 const lifeAreas = [
   {
